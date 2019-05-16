@@ -1,0 +1,5 @@
+"";"test";"elapsed"
+"1";"no parallelization";289,214999999997
+"4";"parallelization both";184,470000000001
+"2";"parallelization drake";188,928
+"3";"parallelization mlr";152,622000000003
