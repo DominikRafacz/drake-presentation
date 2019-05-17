@@ -67,7 +67,7 @@ vis_drake_graph(drake_config(plan))
 \tiny
 ```{r eval = FALSE, size="small"}
 plan <- drake_plan(
-  data_raw = read.csv(file_in("dataset_31_credit-g.csv")),
+  data_raw = read.csv(file_in("phplE7q6h.csv")),
   data_processed = normalizeFeatures(data_raw, target = "class"),
   task = target(
     makeClassifTask("task", data, "class"),
@@ -114,3 +114,11 @@ ggplot(data = read.csv2("benchmark.csv"),
 > - reproducibility
 > - code management
 > - parallelization
+
+## the end
+
+Thanks for your attention!
+
+**Acknowledgements:**
+
+Michał Burdukiewicz (Warsaw University of Technology)
