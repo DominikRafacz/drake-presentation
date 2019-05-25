@@ -1,0 +1,18 @@
+---
+title: "drake demo"
+author: "Dominik Rafacz"
+date: "April 23, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+readd(plot1)
+```
+
+```{r}
+readd(plot2)
+```
