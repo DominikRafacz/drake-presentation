@@ -43,7 +43,8 @@ readd(plot1)
 ## visualizing plan
 
 ```{r eval = FALSE}
-vis_drake_graph(drake_config(plan))
+config <- drake_config(plan)
+vis_drake_graph(config)
 ```
 ![](graph_before.png)
 
@@ -51,14 +52,16 @@ vis_drake_graph(drake_config(plan))
 ## visualizing plan
 
 ```{r eval = FALSE}
-vis_drake_graph(drake_config(plan))
+config <- drake_config(plan)
+vis_drake_graph(config)
 ```
 ![](graph_after.png)
 
 ## visualizing plan
 
 ```{r eval = FALSE}
-vis_drake_graph(drake_config(plan))
+config <- drake_config(plan)
+vis_drake_graph(config)
 ```
 ![](graph_times.png)
 
@@ -117,7 +120,7 @@ ggplot(data = read.csv2("benchmark.csv"),
 
 ## the end
 
-Thanks for your attention!
+Thanks for your attention
 
 **Acknowledgements:**
 
